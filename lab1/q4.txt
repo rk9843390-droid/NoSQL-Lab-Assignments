@@ -1,0 +1,32 @@
+use StudentDB
+
+db.Students.insertMany([
+    {
+        RollNumber: 102,
+        Name: "Priya Singh",
+        Department: "BCA",
+        Semester: 5,
+        CGPA: 8.7
+    },
+    {
+        RollNumber: 103,
+        Name: "Aman Kumar",
+        Department: "BCA",
+        Semester: 5,
+        CGPA: 7.9
+    },
+    {
+        RollNumber: 104,
+        Name: "Neha Verma",
+        Department: "BBA",
+        Semester: 4,
+        CGPA: 8.5
+    },
+    {
+        RollNumber: 105,
+        Name: "Arjun Yadav",
+        Department: "BCA",
+        Semester: 5,
+        CGPA: 8.0
+    }
+])

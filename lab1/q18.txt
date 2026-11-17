@@ -1,0 +1,23 @@
+use StudentDB
+
+db.createCollection("Departments")
+
+db.Departments.insertMany([
+    {
+        DepartmentID: 1,
+        DepartmentName: "BCA",
+        HOD: "Dr. Sharma"
+    },
+    {
+        DepartmentID: 2,
+        DepartmentName: "BBA",
+        HOD: "Dr. Verma"
+    },
+    {
+        DepartmentID: 3,
+        DepartmentName: "MCA",
+        HOD: "Dr. Singh"
+    }
+])
+
+db.Departments.find()

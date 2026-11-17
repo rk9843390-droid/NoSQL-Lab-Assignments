@@ -1,0 +1,4 @@
+use StudentDB
+db
+db.createCollection("Students")
+show dbs

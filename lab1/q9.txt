@@ -1,0 +1,6 @@
+use StudentDB
+
+db.Students.updateOne(
+    { RollNumber: 103 },
+    { $set: { Department: "MCA" } }
+) 

@@ -1,0 +1,14 @@
+use StudentDB
+
+show dbs
+show collections
+
+db.createCollection("Courses")
+
+db.Courses.insertOne({
+    CourseID: 101,
+    CourseName: "MongoDB",
+    Credits: 4
+})
+
+db.Courses.find()

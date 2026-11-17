@@ -1,0 +1,18 @@
+use StudentDB
+
+db.Students.insertOne({
+    RollNumber: 204,
+    Name: "Vikas Yadav",
+    Department: "BCA",
+    Semester: 5,
+    CGPA: 8.3
+})
+
+db.Students.find()
+
+db.Students.updateOne(
+    { RollNumber: 204 },
+    { $set: { CGPA: 8.5 } }
+)
+
+db.Students.deleteOne({ RollNumber: 204 })

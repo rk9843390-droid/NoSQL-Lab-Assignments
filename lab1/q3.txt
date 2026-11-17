@@ -1,0 +1,9 @@
+use StudentDB
+
+db.Students.insertOne({
+    RollNumber: 101,
+    Name: "Rahul Sharma",
+    Department: "BCA",
+    Semester: 5,
+    CGPA: 8.2
+})

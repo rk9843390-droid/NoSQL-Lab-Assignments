@@ -1,0 +1,12 @@
+use StudentDB
+
+db.Students.replaceOne(
+    { RollNumber: 104 },
+    {
+        RollNumber: 104,
+        Name: "Neha Gupta",
+        Department: "BCA",
+        Semester: 6,
+        CGPA: 8.8
+    }
+)

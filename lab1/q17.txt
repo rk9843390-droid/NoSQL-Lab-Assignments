@@ -1,0 +1,4 @@
+use StudentDB
+
+db.Students.renameCollection("StudentDetails")
+show collections

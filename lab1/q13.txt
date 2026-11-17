@@ -1,0 +1,6 @@
+use StudentDB
+
+db.Students.updateMany(
+    {},
+    { $unset: { Email: "" } }
+)

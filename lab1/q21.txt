@@ -1,0 +1,22 @@
+use StudentDB
+
+db.createCollection("Students")
+
+db.Students.insertMany([
+    {
+        RollNumber: 201,
+        Name: "Rohit Kumar",
+        Department: "BCA",
+        Semester: 5,
+        CGPA: 8.1
+    },
+    {
+        RollNumber: 202,
+        Name: "Anjali Sharma",
+        Department: "BCA",
+        Semester: 5,
+        CGPA: 8.6
+    }
+])
+
+db.Students.find()

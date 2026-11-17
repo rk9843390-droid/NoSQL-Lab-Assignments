@@ -1,0 +1,17 @@
+use StudentDB
+
+show dbs
+show collections
+
+db.Students.find()
+
+db.Students.countDocuments()
+
+db.Students.find(
+    {},
+    {
+        _id: 0,
+        Name: 1,
+        Department: 1
+    }
+)
